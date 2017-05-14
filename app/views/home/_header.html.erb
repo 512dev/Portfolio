@@ -1,0 +1,15 @@
+<nav class="nav-wrapper transparent" id="nav">
+  <%= link_to image_tag("nav-logo.png"), root_path, class: "nav-logo left"%>
+  <a href="#" data-activates="dropdown-mobile" class="right dropdown-button hide-on-med-and-up" id="nav-drop"><i class="material-icons">menu</i></a>
+  <ul class="right hide-on-small-only">
+    <li><%= link_to "Portfolio", home_Portfolio_path, class: "btn-flat"%></li>
+    <li><%= link_to "Blog", blog_blog_path, class: "btn-flat"%></li>
+    <li><%= link_to "Contact", home_contact_path, class: "btn-flat"%></li>
+  </ul>
+   <!-- Dropdown Structure -->
+  <ul id="dropdown-mobile" class="dropdown-content">
+    <li><%= link_to "Portfolio", home_Portfolio_path, class: "btn-flat"%></li>
+    <li><%= link_to "Blog", blog_blog_path, class: "btn-flat"%></li>
+    <li><%= link_to "Contact", home_contact_path, class: "btn-flat"%></li>
+  </ul>
+</nav>
