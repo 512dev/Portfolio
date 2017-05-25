@@ -33,9 +33,12 @@ body{
 #nav-drop{
 	margin-right:10px;
 }
-
+.dropdown-content{
+	width: auto !important;
+}
 .nav-wrapper{
 	color:#F0F0F0;
+	box-shadow: 5px 5px 3px #936C7E;
 }
 .nav-logo{
 	margin-left: 40px;
@@ -45,15 +48,40 @@ body{
 	display:inline-block;
 	margin-right: 10px;
 }
+.footer-logo{
+	margin-top: 7px;
+}
 .main{
 	color: white;
+	margin-top: 150px;
 }
 .main h1{
-	font-size: 128px;
+	font-size: 6em;
 	font-family: 'Lobster', sans-serif;
-
+	text-shadow: 2px 2px 1px #936C7E;
+}
+.main p, h4{
+	text-shadow: 2px 2px 1px #936C7E;
 }
 
 .footer{
 	margin-top: 15px;
 }
+
+.support1{
+	display: block;
+	height: 500px;
+	width: 100%;
+}
+.jumbo{
+	height: 800px;
+	width: 100%;	
+	background: url("/assets/parallaxv4.png") fixed no-repeat center center;
+	background-size: cover;
+	display:block;
+
+}
+.black600 { 
+	color: #000000; 
+}
+
